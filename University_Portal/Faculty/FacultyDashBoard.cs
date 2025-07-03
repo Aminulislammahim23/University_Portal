@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace University_Portal
 {
-    public partial class LoginForm: Form
+    public partial class FacultyDashBoard : Form
     {
-        public LoginForm()
+        public FacultyDashBoard()
         {
             InitializeComponent();
+        }
+
+        private void FacultyDashBoard_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
