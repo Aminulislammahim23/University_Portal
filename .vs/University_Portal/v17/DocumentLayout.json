@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Git All Project\\C# Projects\\University_Portal\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDashBoard.cs",
+              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
+              "RelativeDocumentMoniker": "University_Portal\\Student\\StudentDashBoard.cs",
+              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
+              "RelativeToolTip": "University_Portal\\Student\\StudentDashBoard.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAvwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T10:27:07.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDashBoard.cs [Design]",
+              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
+              "RelativeDocumentMoniker": "University_Portal\\Student\\StudentDashBoard.cs",
+              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs [Design]",
+              "RelativeToolTip": "University_Portal\\Student\\StudentDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T10:22:04.826Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

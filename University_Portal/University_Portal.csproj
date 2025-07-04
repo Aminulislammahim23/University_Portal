@@ -33,6 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,12 +62,30 @@
     <Compile Include="Admin\AdminDashBoard.Designer.cs">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student\CRUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\CRUControl.Designer.cs">
+      <DependentUpon>CRUControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataAccess.cs" />
+    <Compile Include="Student\DAUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\DAUControl.Designer.cs">
+      <DependentUpon>DAUControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Faculty\FacultyDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Faculty\FacultyDashBoard.Designer.cs">
       <DependentUpon>FacultyDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\FUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\FUControl.Designer.cs">
+      <DependentUpon>FUControl.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -65,8 +93,26 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student\MCUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\MCUControl.Designer.cs">
+      <DependentUpon>MCUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\OCUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\OCUControl.Designer.cs">
+      <DependentUpon>OCUControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student\RegUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\RegUControl.Designer.cs">
+      <DependentUpon>RegUControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student\StudentDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +122,26 @@
     <EmbeddedResource Include="Admin\AdminDashBoard.resx">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Student\CRUControl.resx">
+      <DependentUpon>CRUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\DAUControl.resx">
+      <DependentUpon>DAUControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Faculty\FacultyDashBoard.resx">
       <DependentUpon>FacultyDashBoard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Student\FUControl.resx">
+      <DependentUpon>FUControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\MCUControl.resx">
+      <DependentUpon>MCUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\OCUControl.resx">
+      <DependentUpon>OCUControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,10 +151,15 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Student\RegUControl.resx">
+      <DependentUpon>RegUControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Student\StudentDashBoard.resx">
       <DependentUpon>StudentDashBoard.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -108,7 +174,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\bell.gif" />
     <Content Include="img\logoLog.JPG" />
+    <Content Include="img\logout.gif" />
+    <Content Include="img\settings.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

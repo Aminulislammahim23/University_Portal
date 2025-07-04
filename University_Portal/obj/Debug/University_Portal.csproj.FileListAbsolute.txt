@@ -12,3 +12,12 @@ D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\Uni
 D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.AdminDashboard.resources
 D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.FacultyDashBoard.resources
 D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.StudentDashBoard.resources
+D:\Git All Project\C# Projects\University_Portal\University_Portal\bin\Debug\MetroFramework.dll
+D:\Git All Project\C# Projects\University_Portal\University_Portal\bin\Debug\MetroFramework.Fonts.dll
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\Universi.94B039FB.Up2Date
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.CRUControl.resources
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.DAUControl.resources
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.FUControl.resources
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.MCUControl.resources
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.OCUControl.resources
+D:\Git All Project\C# Projects\University_Portal\University_Portal\obj\Debug\University_Portal.RegUControl.resources

@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "D:\\Git All Project\\C# Projects\\University_Portal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\faculty\\facultydashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\faculty\\facultydashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\faculty\\facultydashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\faculty\\facultydashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|d:\\git all project\\c# projects\\university_portal\\university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB90F3-CEA3-4CDB-9A02-261E2E79AF28}|University_Portal\\University_Portal.csproj|solutionrelative:university_portal\\student\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,119 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminDashBoard.cs",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Admin\\AdminDashBoard.cs",
-              "RelativeDocumentMoniker": "University_Portal\\Admin\\AdminDashBoard.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Admin\\AdminDashBoard.cs",
-              "RelativeToolTip": "University_Portal\\Admin\\AdminDashBoard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:17:55.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FacultyDashBoard.cs",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Faculty\\FacultyDashBoard.cs",
-              "RelativeDocumentMoniker": "University_Portal\\Faculty\\FacultyDashBoard.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Faculty\\FacultyDashBoard.cs",
-              "RelativeToolTip": "University_Portal\\Faculty\\FacultyDashBoard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:17:36.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminDashBoard.cs [Design]",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Admin\\AdminDashBoard.cs",
-              "RelativeDocumentMoniker": "University_Portal\\Admin\\AdminDashBoard.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Admin\\AdminDashBoard.cs [Design]",
-              "RelativeToolTip": "University_Portal\\Admin\\AdminDashBoard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:10:34.639Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FacultyDashBoard.cs [Design]",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Faculty\\FacultyDashBoard.cs",
-              "RelativeDocumentMoniker": "University_Portal\\Faculty\\FacultyDashBoard.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Faculty\\FacultyDashBoard.cs [Design]",
-              "RelativeToolTip": "University_Portal\\Faculty\\FacultyDashBoard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:10:20.562Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentDashBoard.cs [Design]",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
-              "RelativeDocumentMoniker": "University_Portal\\Student\\StudentDashBoard.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs [Design]",
-              "RelativeToolTip": "University_Portal\\Student\\StudentDashBoard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:06:33.474Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\LoginForm.cs",
-              "RelativeDocumentMoniker": "University_Portal\\LoginForm.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\LoginForm.cs*",
-              "RelativeToolTip": "University_Portal\\LoginForm.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:00:32.972Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StudentDashBoard.cs",
               "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
               "RelativeDocumentMoniker": "University_Portal\\Student\\StudentDashBoard.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
-              "RelativeToolTip": "University_Portal\\Student\\StudentDashBoard.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs*",
+              "RelativeToolTip": "University_Portal\\Student\\StudentDashBoard.cs*",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAvwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T23:29:34.244Z",
+              "WhenOpened": "2025-07-04T10:27:07.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataAccess.cs",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\DataAccess.cs",
-              "RelativeDocumentMoniker": "University_Portal\\DataAccess.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\DataAccess.cs",
-              "RelativeToolTip": "University_Portal\\DataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAB0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentDashBoard.cs [Design]",
+              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs",
+              "RelativeDocumentMoniker": "University_Portal\\Student\\StudentDashBoard.cs",
+              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\Student\\StudentDashBoard.cs [Design]*",
+              "RelativeToolTip": "University_Portal\\Student\\StudentDashBoard.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T22:58:05.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\LoginForm.cs",
-              "RelativeDocumentMoniker": "University_Portal\\LoginForm.cs",
-              "ToolTip": "D:\\Git All Project\\C# Projects\\University_Portal\\University_Portal\\LoginForm.cs [Design]*",
-              "RelativeToolTip": "University_Portal\\LoginForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T21:59:23.813Z",
+              "WhenOpened": "2025-07-04T10:22:04.826Z",
               "EditorCaption": " [Design]"
             }
           ]
