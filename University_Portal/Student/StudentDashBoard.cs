@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using University_Portal.Student;
 
 namespace University_Portal
 {
@@ -15,6 +16,7 @@ namespace University_Portal
         public StudentDashBoard()
         {
             InitializeComponent();
+            AddUserControl(new status());
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -28,6 +30,14 @@ namespace University_Portal
             cmbAcademics.Items.Add("Financials");              // index 6
 
             cmbAcademics.SelectedIndex = 0; // Set "Academics" as default
+        }
+
+        private void AddUserControl(UserControl userControl)
+        {
+            defPnl.Controls.Clear();
+            userControl.Dock = DockStyle.Fill;
+            defPnl.Controls.Add(userControl);
+            userControl.BringToFront();
         }
 
 
@@ -110,5 +120,15 @@ namespace University_Portal
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            AddUserControl(new status());
+        }
+
+
+
+
+
     }
 }

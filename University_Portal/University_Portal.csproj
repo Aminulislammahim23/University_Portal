@@ -62,6 +62,12 @@
     <Compile Include="Admin\AdminDashBoard.Designer.cs">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student\CourseCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\CourseCard.Designer.cs">
+      <DependentUpon>CourseCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student\CRUControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -113,6 +119,12 @@
     <Compile Include="Student\RegUControl.Designer.cs">
       <DependentUpon>RegUControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student\status.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student\status.Designer.cs">
+      <DependentUpon>status.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student\StudentDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="Admin\AdminDashBoard.resx">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\CourseCard.resx">
+      <DependentUpon>CourseCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student\CRUControl.resx">
       <DependentUpon>CRUControl.cs</DependentUpon>
@@ -155,6 +170,9 @@
     </Compile>
     <EmbeddedResource Include="Student\RegUControl.resx">
       <DependentUpon>RegUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\status.resx">
+      <DependentUpon>status.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student\StudentDashBoard.resx">
       <DependentUpon>StudentDashBoard.cs</DependentUpon>
