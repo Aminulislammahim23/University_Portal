@@ -13,10 +13,18 @@ namespace University_Portal
 {
     public partial class StudentDashBoard : Form
     {
+        private LoginForm LF { get; set; }
         public StudentDashBoard()
         {
             InitializeComponent();
             AddUserControl(new status());
+        }
+
+        public StudentDashBoard(string Fname, string Lname, LoginForm lf) : this()
+        {
+            this.lblFname.Text += Fname;
+            this.lblLname.Text += Lname;
+            this.LF = lf;
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -87,8 +95,12 @@ namespace University_Portal
 
         private void CandRlbl_Click(object sender, EventArgs e)
         {
+            CRUControl uc1 = new CRUControl();
 
+            this.defPnl.Controls.Clear();
+            this.defPnl.Controls.Add(uc1);
         }
+
 
         private void btnLogOut_MouseHover(object sender, EventArgs e)
         {

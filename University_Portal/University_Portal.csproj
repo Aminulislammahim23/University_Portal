@@ -68,10 +68,10 @@
     <Compile Include="Student\CourseCard.Designer.cs">
       <DependentUpon>CourseCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Student\CRUControl.cs">
+    <Compile Include="Student\CourseAndResults\CRUControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Student\CRUControl.Designer.cs">
+    <Compile Include="Student\CourseAndResults\CRUControl.Designer.cs">
       <DependentUpon>CRUControl.cs</DependentUpon>
     </Compile>
     <Compile Include="DataAccess.cs" />
@@ -137,7 +137,7 @@
     <EmbeddedResource Include="Student\CourseCard.resx">
       <DependentUpon>CourseCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Student\CRUControl.resx">
+    <EmbeddedResource Include="Student\CourseAndResults\CRUControl.resx">
       <DependentUpon>CRUControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student\DAUControl.resx">
@@ -197,5 +197,6 @@
     <Content Include="img\logout.gif" />
     <Content Include="img\settings.gif" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

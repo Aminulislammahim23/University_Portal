@@ -46,6 +46,9 @@
             this.Reglbl = new System.Windows.Forms.Label();
             this.CandRlbl = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblLname = new System.Windows.Forms.Label();
+            this.lblFname = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.metroPanel1.SuspendLayout();
@@ -53,6 +56,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnSetting)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -94,6 +98,8 @@
             this.cmbMessages.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMessages.ForeColor = System.Drawing.Color.White;
             this.cmbMessages.FormattingEnabled = true;
+            this.cmbMessages.Items.AddRange(new object[] {
+            "Mail Box"});
             this.cmbMessages.Location = new System.Drawing.Point(0, 205);
             this.cmbMessages.Name = "cmbMessages";
             this.cmbMessages.Size = new System.Drawing.Size(244, 28);
@@ -107,6 +113,11 @@
             this.cmbOthers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOthers.ForeColor = System.Drawing.Color.White;
             this.cmbOthers.FormattingEnabled = true;
+            this.cmbOthers.Items.AddRange(new object[] {
+            "Applications",
+            "Parking Applications",
+            "Swimming Applications",
+            "Download Forms"});
             this.cmbOthers.Location = new System.Drawing.Point(0, 159);
             this.cmbOthers.Name = "cmbOthers";
             this.cmbOthers.Size = new System.Drawing.Size(244, 28);
@@ -120,6 +131,17 @@
             this.cmbLibrary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbLibrary.ForeColor = System.Drawing.Color.White;
             this.cmbLibrary.FormattingEnabled = true;
+            this.cmbLibrary.Items.AddRange(new object[] {
+            "Search Book",
+            "Current Borrows",
+            "Borrow History",
+            "Financial",
+            "UGC Digital Library (UDL) E-Resources",
+            "SAGE",
+            "INASP (Electronic Journal)",
+            "Research4Life",
+            "Online Legal Research Database Bangladesh - BDLEX",
+            "IOP Science Journal"});
             this.cmbLibrary.Location = new System.Drawing.Point(0, 113);
             this.cmbLibrary.Name = "cmbLibrary";
             this.cmbLibrary.Size = new System.Drawing.Size(244, 28);
@@ -133,6 +155,9 @@
             this.cmbGradeReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbGradeReports.ForeColor = System.Drawing.Color.White;
             this.cmbGradeReports.FormattingEnabled = true;
+            this.cmbGradeReports.Items.AddRange(new object[] {
+            "By Curriculum",
+            "By Semester"});
             this.cmbGradeReports.Location = new System.Drawing.Point(0, 69);
             this.cmbGradeReports.Name = "cmbGradeReports";
             this.cmbGradeReports.Size = new System.Drawing.Size(244, 28);
@@ -164,6 +189,7 @@
             // 
             // metroPanel1
             // 
+            this.metroPanel1.Controls.Add(this.panel3);
             this.metroPanel1.Controls.Add(this.btnNotification);
             this.metroPanel1.Controls.Add(this.btnSetting);
             this.metroPanel1.Controls.Add(this.btnLogOut);
@@ -221,7 +247,7 @@
             // 
             this.welcomelbl.AutoSize = true;
             this.welcomelbl.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomelbl.Location = new System.Drawing.Point(961, 35);
+            this.welcomelbl.Location = new System.Drawing.Point(938, 30);
             this.welcomelbl.Name = "welcomelbl";
             this.welcomelbl.Size = new System.Drawing.Size(89, 23);
             this.welcomelbl.TabIndex = 6;
@@ -272,6 +298,33 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // lblLname
+            // 
+            this.lblLname.AutoSize = true;
+            this.lblLname.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLname.Location = new System.Drawing.Point(28, 9);
+            this.lblLname.Name = "lblLname";
+            this.lblLname.Size = new System.Drawing.Size(0, 23);
+            this.lblLname.TabIndex = 10;
+            // 
+            // lblFname
+            // 
+            this.lblFname.AutoSize = true;
+            this.lblFname.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFname.Location = new System.Drawing.Point(116, 9);
+            this.lblFname.Name = "lblFname";
+            this.lblFname.Size = new System.Drawing.Size(0, 23);
+            this.lblFname.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.lblFname);
+            this.panel3.Controls.Add(this.lblLname);
+            this.panel3.Location = new System.Drawing.Point(1033, 27);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(271, 31);
+            this.panel3.TabIndex = 0;
+            // 
             // StudentDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,6 +347,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnSetting)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -317,5 +372,8 @@
         private System.Windows.Forms.PictureBox btnSetting;
         private System.Windows.Forms.PictureBox btnNotification;
         private System.Windows.Forms.ComboBox cmbAcademics;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label lblFname;
+        private System.Windows.Forms.Label lblLname;
     }
 }

@@ -30,21 +30,22 @@ namespace University_Portal
 
                 if (ds.Tables[0].Rows.Count == 1)
                 {
-                    var name = ds.Tables[0].Rows[0][1].ToString().ToUpper();   //anony type
-                    if (ds.Tables[0].Rows[0][3].ToString() == "admin")
+                    var Fname = ds.Tables[0].Rows[0][1].ToString().ToUpper();   //anony type
+                    var Lname = ds.Tables[0].Rows[0][2].ToString().ToUpper();   //anony type
+                    if (ds.Tables[0].Rows[0][4].ToString() == "admin")
                     {
                         this.Hide();
-                        new AdminDashBoard().Show();   //name, this
+                        new AdminDashBoard().Show();
                     }
-                    else if (ds.Tables[0].Rows[0][3].ToString() == "faculty")
+                    else if (ds.Tables[0].Rows[0][4].ToString() == "faculty")
                     {
                         this.Hide();
                         new FacultyDashBoard().Show();
                     }
-                    else if (ds.Tables[0].Rows[0][3].ToString() == "student")
+                    else if (ds.Tables[0].Rows[0][4].ToString() == "student")
                     {
                         this.Hide();
-                        new StudentDashBoard().Show();
+                        new StudentDashBoard(Fname,Lname, this).Show();
                     }
 
                 }
