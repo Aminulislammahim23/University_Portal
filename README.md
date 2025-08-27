@@ -1,4 +1,4 @@
-# 🎓 University Portal Management System
+# 🎓 University Portal Management System (AIUB)
 
 ## 📌 Project Overview
 
@@ -77,7 +77,7 @@ These entities are interconnected using **foreign keys** and relationships manag
 ---
 ## 📂 Folder Structure (Example)
 
---- Nath, Prious Chandra
+--- Nath, Prious Chandra 
 --- Aminul Islam Mahim
 
 
